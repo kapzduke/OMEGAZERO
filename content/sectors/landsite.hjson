@@ -1,0 +1,11 @@
+/*{
+	name: Landsite
+	difficulty: 1
+	planet: reneva
+	captureWave: 10
+	sector: 22
+	isLastSector: false
+	allowLaunchLoadout: false
+	allowLaunchSchematics: false
+	addStartingItems: false
+}
