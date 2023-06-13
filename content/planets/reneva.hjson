@@ -1,0 +1,70 @@
+localizedName: Reneva
+alwaysUnlocked: true
+mesh: {
+  type: NoiseMesh
+  planet: reneva
+  seed: 88888
+  divisions: 5
+  color1: 9CCC3D
+  color2: 7CB247
+  colorScale: 1.5
+  radius: 1.2
+  octaves: 4
+  persistence: 1
+  scale: 0.75
+  mag: 1
+}
+cloudMesh: {
+  type: HexSkyMesh
+  planet: reneva
+  color: 667F5A
+  seed: 88889
+  speed: 0.14
+  radius: 0.1
+  divisions: 5
+  thresh: 0.5
+  persistence: 0.2
+  scale: 0.9
+}
+defaultEnv: 1
+generator: {
+  type: PlanetGenerator
+  min: 120
+  max: 120
+  radMin: 480
+  radMax: 480
+  seed: 88888
+  berylChance: 0
+}
+itemWhitelist: [
+//  iron
+//  calcium
+]
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+prebuildBase: true
+startSector: 22
+orbitSpacing: 4
+radius: 1.24
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0.5
+atmosphereRadOut: 0.35
+accessible: false
+orbitRadius: 24
+updateLighting: true
+sectorSeed: -1
+bloom: false
+visible: true
+atmosphereColor: 80997A
+iconColor: C6E52D
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+//defaultCore: kiky5-core-acidator
+parent: sun
+solarSystem: sun
+launchCandidates: []
